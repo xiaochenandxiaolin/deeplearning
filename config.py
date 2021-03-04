@@ -1,0 +1,27 @@
+# 参数设置
+EPOCHS = 10
+BATCH_SIZE = 8
+NUM_CLASSES = 6
+IMAGE_HEIGHT = 224
+IMAGE_WIDTH = 224
+CHANNELS = 3
+lin_model_dir = "saved_model/alexmodel/"
+vggmodel="saved_model/vggmodel/"
+semodel="saved_model/semodel/"
+effmodel="saved_model/effmodel/"
+resxmodel="saved_model/resxmodel/"
+alexmodel="saved_model/alexmodel/"
+save_model_dir="saved_model/semodel/"
+save_every_n_epoch = 1
+dataset_dir = "./dataset/"
+train_dir = dataset_dir + "train"
+valid_dir = dataset_dir + "valid"
+test_dir = dataset_dir + "test"
+train_tfrecord = dataset_dir + "train.tfrecord"
+valid_tfrecord = dataset_dir + "valid.tfrecord"
+test_tfrecord = dataset_dir + "test.tfrecord"
+TRAIN_SET_RATIO = 0.6
+TEST_SET_RATIO = 0.2
+image_path='test/'
+path='raw/'
+class_data='class.json'
