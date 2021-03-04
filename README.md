@@ -19,45 +19,25 @@ Classification algorithm based on TensorFlow 2.X.
 - tf_sevring_grpc.py(grpc)
 
 - tf_sevring_restful.py----------------------(restful)
-
 - tf_sevring_warmup.py-----------------------(preheated files)
-
-train.py-----------------------------------模型训练
-
-test.py------------------------------------本地循环加载模型预测
-
-data.py,dadaset.py-------------------------一些函数
-
-write_tfrecord.py,read_tfrecord.py---------数据集操作
-
-json_data.py-------------------------------标签文件生成
-
-config.py----------------------------------参数设置
-
-evaluate.py--------------------------------测试集测试
-
-test_eva.py--------------------------------单一模型针对可能性最高，出现次数最多两种方式的预测
+- train.py-----------------------------------(training)
+- test.py------------------------------------(local test)
+- data.py,dadaset.py-------------------------(utils)
+- write_tfrecord.py,read_tfrecord.py---------(tfrecord)
+- json_data.py-------------------------------(label)
+- config.py----------------------------------(set config)
+- evaluate.py--------------------------------(eva)
+- test_eva.py--------------------------------(...)
 
 
 # folder
-nets---------------------------------------(vgg,resnet,...)
-
-dataset------------------------------------(dataset)
-
-raw----------------------------------------(Store the original data set)
-
-
-test---------------------------------------(Store the picture to be recognized)
-
-
-saved_model--------------------------------(save model)
-
-
-class.json---------------------------------(label)
-
-
-tf_docker.txt------------------------------(docker command)
-
+- nets---------------------------------------(vgg,resnet,...)
+- dataset------------------------------------(dataset)
+- raw----------------------------------------(Store the original data set)
+- test---------------------------------------(Store the picture to be recognized)
+- saved_model--------------------------------(save model)
+- class.json---------------------------------(label)
+- tf_docker.txt------------------------------(docker command)
 
 # Updating
 - [ ] Target Detection
